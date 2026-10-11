@@ -90,3 +90,5 @@ document.querySelector("#themeButton").addEventListener("click",()=>{
 });
 function updateClock(){const now=new Date();document.querySelector("#clock").textContent=now.toLocaleTimeString([], {hour:"2-digit",minute:"2-digit"});document.querySelector("#dateText").textContent=now.toLocaleDateString("ru-RU",{weekday:"long",day:"numeric",month:"long"});}
 render();updateClock();setInterval(updateClock,30000);
+
+// Doi Hieam
